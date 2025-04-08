@@ -1,0 +1,20 @@
+# Personal Portfolio Website
+
+This is my personal portfolio website hosted using *GitHub Pages*.  
+It showcases my skills, projects, and contact information.
+
+## Features
+
+- Responsive design
+- HTML, CSS, and JS based
+- Easily accessible online via GitHub Pages
+
+## Live Site
+
+[Visit my website](https://mounish-7.github.io/)  <!-- Replace with your repo URL if different -->
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mounish-7/your-repo-name.git
