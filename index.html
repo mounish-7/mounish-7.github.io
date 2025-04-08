@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Attendance Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Attendance Calculator</h1>
+    <form id="attendanceForm">
+      <div id="subjectsContainer">
+        <div class="subject">
+          <label>Subject Name:</label>
+          <input type="text" class="subjectName" placeholder="e.g., Math" />
+          <label>Total Classes:</label>
+          <input type="number" class="totalClasses" required />
+          <label>Attended Classes:</label>
+          <input type="number" class="attendedClasses" required />
+        </div>
+      </div>
+      <button type="button" id="addSubject">+ Add Another Subject</button><br><br>
+      <label>How many more classes might you miss?</label>
+      <input type="number" id="futureAbsents" value="0" /><br><br>
+      <button type="submit">Calculate Attendance</button>
+    </form>
+
+    <div id="resultArea"></div>
+    <canvas id="attendanceChart" width="400" height="200"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
